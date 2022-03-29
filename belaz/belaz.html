@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Document</title>
+	<link rel="stylesheet" href="style/swiper.min.css">
+	<!-- <link rel="stylesheet" href="style/default-styles.css"> -->
+	<link rel="stylesheet" href="style/belaz.css">
+</head>
+<body>
+
+	<main class="main">
+		<div class="container">
+			<div class="main-wrapper">
+				<div class="logo">
+					<img src="img/logo.png" alt="">
+				</div>
+				<div class="time">
+					<h5>с 9:00 до 21</h5>
+					<span>без выходных</span>
+				</div>
+				<div class="tel">
+					<div class="tel-number">
+						<span>+7(818)247-47-25</span>
+						<span>+7(818)247-47-25</span>
+					</div>
+					<button class="btn btn-modal">заказать звонок</button>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<header class="header">
+		<div class="container">
+			<div class="header-text">
+				<h1 class="header-text__title">оригинальные запчасти для белаз</h1>
+				<span class="header-text__subtitle">с бесплатной доставкой в Ваш город!</span>
+				<ul class="header-list">
+					<li class="header-list__item">
+						<div class="header-list__image">
+							<img src="img/piggy-bank.png" alt="">
+						</div>
+						<span class="header-list__text">Дилерские цены - ниже на 20%, работаем без посредников</span>
+					</li>
+					<li class="header-list__item">
+						<div class="header-list__image">
+							<img src="img/delivery.png" alt="">
+						</div>
+						<span class="header-list__text">Срочная бесплатная доставка <br>за 7 дней</span>
+					</li>
+					<li class="header-list__item">
+						<div class="header-list__image">
+							<img src="img/election.png" alt="">
+						</div>
+						<span class="header-list__text">Даем рассрочку <br>6 месяцев</span>
+					</li>
+					<li class="header-list__item">
+						<div class="header-list__image">
+							<img src="img/medal.png" alt="">
+						</div>
+						<span class="header-list__text">Даем гарантию<br> от 12 месяцев</span>
+					</li>
+				</ul> 
+			</div>
+		</div>
+	</header>
+
+	<section class="hero">
+		<div class="container">
+			<h3 class="hero-text">Получите прайс прямо сейчас <br>на электронную почту!</h3>
+			<div class="hero-form">
+				<div class="hero-form__wrapper">
+					<form class="form" action="server.php" method="post">
+						<input type="email" class="hero-form__email" name="email" placeholder="Введите Ваш E-mail*" required="">
+						<input type="tel" class="hero-form__phone" name="tel" placeholder="Введите Ваш телефон" require="">
+					</form>
+				</div>
+				<div class="hero-form__item">
+					<span class="hero-form__title">Прайс придет к Вам на почту<br> в течение 5 минут</span>
+					<img src="img/clock.png" alt="" class="hero-form__image">
+					<button class="btn btn-hero">Получить прайс</button>
+				</div>
+				
+				
+			</div>
+		</div>
+	</section>
+	
+	<section class="wrap">
+		<div class="container">
+			<div class="wrap-text">
+				<h2 class="title">Вам не придется ждать!</h2>
+				<span class="subtitle">Любые запчасти для всех моделей Белаз<br>
+				всегда в наличии!</span>
+			</div>
+			<div class="wrapper">
+				<div class="wrapper__item">
+					<img src="img/engine.png" alt="">
+					<span class="text__subtitle">
+						Любые типы деталей<br> от шайбы до двигателей
+					</span>
+				</div>
+				<div class="wrapper__item">
+					<img src="img/dump-truck.png" alt="">
+					<span class="text__subtitle">
+						Все модификации Белаз<br> от 45т до 450т
+					</span>
+				</div>
+				<div class="wrapper__item">
+					<img src="img/calendar.png" alt="">
+					<span class="text__subtitle">Отгружаем в день заказа!
+					</span>
+				</div>
+				<div class="wrapper__item">
+					<img src="img/forma.png" alt="">
+					<span class="text__subtitle">Доставим в любое место!
+					</span>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<section class="form-bg">
+		<div class="container">
+			<div class="form-text">
+				<h2 class="text__title">
+					Ищите конкетную деталь? 
+				</h2>
+				<p class="subtitle">Если у Вас есть артикул - введите его в поле ниже и получите цену</p>
+				<span class="form-text__span">ПРЯМО СЕЙЧАС!</span>
+			</div>
+			<form class="form" action="server.php">
+				<div class="form-wrapper">
+					<input type="text" class="hero-form__email" name="text" placeholder="введите атрикул детали">
+					<input type="tel" class="hero-form__phone" name="tel" placeholder="Введите Ваш телефон" require="">	
+					<button class="btn btn-form">узнать цену</button>
+				</div>
+			</form>
+			<div class="form-title">
+				<p class="form-title__title">Мы перезвоним вам в течение 3 минут и назовем цену 	детали!
+				<p>
+				<p class="form-title__title">
+					Или Вы можете перезвонить нам сами:
+				</p>
+				<span class="form-title__phone">+7(818)247-47-25</span>
+			</div>
+		</div>
+	</section>
+
+	<sectiom class="delivery">
+		<div class="container">
+			<h2 class="delivery-text">Мы гарантируем сохранность деталей<br>
+				во время перевозки!
+			</h2>
+			<div class="wrapper">
+				<div class="wrapper__item">
+					<img src="img/image1.jpg" alt="">
+					<h4 class="text__black">Гарантия на целостность поставки
+						прописана в договоре
+					</h4>
+					<a href="#" class="delivery-wrapper__subtitle">Подробнее</a>
+				</div>
+				<div class="wrapper__item">
+					<img src="img/store.jpg" alt="">
+					<h4 class="text__black">Каждая запчасть доставляется с завода
+						в жесткой упаковке
+					</h4>
+					<a href="#" class="delivery-wrapper__subtitle">Подробнее</a>
+				</div>
+				<div class="wrapper__item">
+					<img src="img/detail.jpg" alt="">
+					<h4 class="text__black">Дополнительный контроль качества
+						нашими специалистами</h4>
+					<a href="#" class="delivery-wrapper__subtitle">Подробнее</a>
+				</div>
+			</div>
+		</div>
+
+	</sectiom>
+	<section class="info">
+		<div class="container">
+			<h3 class="info-text">У нас разработаны бонусные системы<br> 
+				и скидки для наших клиентов
+			</h3>
+			<div class="wrapper">
+				<div class="wrapper__item">
+					<img src="img/10.png" alt="">
+					<span class="text__subtitle">Дополнительная скидка 10%<br> 
+						на вторую запчасть<br>
+						и любые последующие
+					</span>
+				</div>
+				<div class="wrapper__item">
+					<img src="img/20.png" alt="">
+					<span class="text__subtitle">Скидка 20% при заключении<br> 
+						договора на годовое<br>
+						сервисное обслуживание
+					</span>
+				</div>
+				<div class="wrapper__item">
+					<img src="img/delivery-truck.png" alt="">
+					<span class="text__subtitle">Бесплатная доставка<br> 
+						по всей России<br>
+						для всех клиентов
+					</span>
+				</div>
+				<div class="wrapper__item">
+					<img src="img/telemarketer.png" alt="">
+					<span class="text__subtitle">Бесплатная круглосуточная<br>
+						техническая поддержка  
+					</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="question">
+		<div class="container">
+			<div class="question-text">
+				<h2 class="title">У Вас остались вопросы? </h2>
+				<span class="subtitle">На Ваши вопросы отвечает Эдуард </span>
+			</div>
+
+			<div class="question-wrapper">
+				<div class="question-accordion">
+					<button class="accordion">Как заказать деталь правильно?</button>
+					<div class="accordion-content">
+					    <p class="text__content">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti quos cum esse.
+					    </p>
+					</div>
+					<button class="accordion">Что делать, если запчасть не понадобилась</button>
+					<div class="accordion-content">
+					    <p>
+					        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat 
+					    </p>
+					</div>
+					<button class="accordion">Можете ли Вы установить деталь?</button>
+				    <div class="accordion-content">
+					    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, consectetur adipisicing elit.</p>
+					</div>
+					<button class="accordion">В чем преимущества оригинальных деталей?</button>
+				    <div class="accordion-content">
+					    <p>Lorem ipsum dolor sit amet,  consectetur adipisicing elit.</p>
+					</div>
+					<button class="accordion">Можете ли Вы установить деталь?</button>
+				    <div class="accordion-content">
+					    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</div>
+				<div class="question-image">
+					<img src="img/na_sayt.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="work">
+		<div class="container">
+			<div class="work-text">
+				<h2 class="work-text__title">С нами удобно работать!</h2>
+				<span class="work-text__subtitle">
+					Более 70% клиентов приходят к нам по рекомендации!
+				</span>
+			</div>
+			<div class="wrapper">
+				<div class="wrapper__item">
+					<img src="img/icon1.png" alt="">
+					<span class="text__black">Вы вносите предоплату<br>
+						в размере 50%<br>
+						от стоимости запчасти			
+					</span>
+				</div>
+				<div class="wrapper__item">
+					<img src="img/icon2.png" alt="">
+					<span class="text__black">Отправляем запчасти в день заказа </span>
+				</div>
+				<div class="wrapper__item">
+					<img src="img/icon3.png" alt="">
+					<span class="text__black">Получаете деталь,<br>
+						проверяете, оплачиваете<br>
+						оставшиеся 50%
+					</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="store">
+		<div class="container">
+			<div class="store-text">
+				<h2 class="title">
+					У нас собственный склад!   
+				</h2>
+				<span class="subtitle">
+					Это позволяет нам быстро обрабатывать запросы и отгружать детали <br>в день заказа!
+				</span>
+			</div>
+			<div class="swiper-container">
+			    <!-- Additional required wrapper -->
+			    <div class="swiper-wrapper">
+			        <!-- Slides -->
+			        <div class="swiper-slide store-one"></div>
+			        <div class="swiper-slide store-two"></div>
+			        <div class="swiper-slide store-three"></div>
+			        <div class="swiper-slide store-two"></div>
+			        <div class="swiper-slide store-three"></div>
+			    </div>
+			    <div class="swiper-pagination"></div>
+			    <button class="swiper-button-prev"></button>
+			    <button class="swiper-button-next"></button>
+			   
+			</div>
+		</div>
+	</section>
+	<section class="service">
+		<div class="container">
+			<div class="service-text">
+				<h2 class="service-title__title">
+					У нас в штате есть мобильные бригады,<br>
+					готовые выехать на сервисное обслуживание,<br>
+					ремонт и проведение диагностики!
+				</h2>
+			</div>
+			<div class="wrapper">
+				<div class="wrapper__item">
+					<div class="wrapper__item__image">
+						<img src="img/delivery-image.png" alt="">
+					</div>
+					<span class="text__black">Организуем выезд специалистов<br>
+						в течение двух дней
+					</span>
+				</div>
+				<div class="wrapper__item">
+					<div class="wrapper__item__image">
+						<img src="img/icon3.png" alt="">
+					</div>
+					<span class="text__black">
+						Бригады укомплектованы<br>
+						всем необходимым оборудованием<br>
+						для производства работ<br>
+						любой сложности
+					</span>
+				</div>
+				<div class="wrapper__item">
+					<div class="wrapper__item__image">
+						<img src="img/certificate.png" alt="">
+					</div>
+					<span class="text__black">
+						Все специалисты проходят обучение<br>
+						и ежегодную аттестацию
+					</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="call">
+		<div class="container">
+			<div class="call-text">
+				<h3 class="text__title">Если Вам необходима бесплатная консультация по 	
+					вопросу обслуживания
+				</h3>
+				<h4 class="call-text__subtitle">Звоните нам по телефону:</h4>
+				<span class="call-text__phone">+7(818) 247-47-25</span>
+			</div>
+			<div class="call-question">
+				<p>Получить консультацию</p>
+				<button class="btn btn-modal">заказать звонок</button>
+
+			</div>
+			<!-- <form class="form" action="server.php">
+				<input type="tel" class="hero-form__phone" name="tel" placeholder="Введите Ваш телефон" require="">
+				<button class="btn btn-form">перезвонить сейчас</button>
+			</form> -->
+		</div>
+	</section>
+	<section class="contact">
+		<div class="container">
+			<div class="contact-text">
+				<h2 class="contact-text__title">Приезжайте в наш офис! </h2>
+				<p class="contact-text__subtitle">г. Архангельск, Москва-Сити, оф. 3725 </p>
+				<span class="contact-text__phone">+7(818) 247-47-25</span>
+			</div>
+		</div>
+	</section>
+	<section class="map">
+		
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-block">
+				<div class="logo">
+					<img src="img/logo.png" alt="">
+				</div>
+				<div class="footer-text">
+					<h5 class="footer-title">
+						© 2016, CДЕЛАНО С 
+						<img src="img/love.png" alt="" class="footer-title__love"> 
+						КОМАНДОЙ
+						<img src="img/logo-footer.png" alt="" class="footer-title__image"> 
+					</h5>
+				</div>
+				<div class="footer-contact">
+					<h5 class="footer-contact__title">
+						Есть вопросы?Звоните! 
+					</h5>
+					<span class="footer-contact__phone">
+						+7(818) 247-47-25
+					</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="popup popup-consultation">
+		<div class=popup-dialog>
+			<div class=popup-content>
+				<button class=popup-close>&times;</button>
+				<h4>Остались вопросы? Закажите обратный звонок</h4>
+				<div class=main-form>
+					<form class= form--popup action=#server.php method=POST>
+						<input class="input-one" type=text name=name placeholder="Ваше имя" required>
+						<input class="input-one" type=text name=phone placeholder="Ваш телефон" required>
+						<input class="button button-order" type="submit" value="Получить консультацию">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup thankyou">
+		<!-- Само (белое) окно-->
+		<div class="popup-dialog">
+			<!-- Содержимое модального окна-->
+			<div class="popup-content">
+				<button class="popup-close close-modal" data-dismiss="modal">&times;</button>
+				<div class="thankyou-wrapper popup-form">
+
+					<figure class="image-thankyou">
+						<img src="img/0c3dhw.jpg" alt="ну ну">
+					</figure>
+
+					<button class="btn-orange form-buy form-btn close-modal">Жду...</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/swiper.min.js"></script>
+	<script src="js/slider.js"></script>
+	<script src="js/belaz.js"></script>
+</body>
+</html>
