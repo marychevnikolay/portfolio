@@ -1,3 +1,4 @@
-https://marychevnikolay.github.io/portfolio/belaz
+https://marychevnikolay.github.io/portfolio/belaz/belaz.html
 
-https://marychevnikolay.github.io/portfolio/doseo
+
+https://marychevnikolay.github.io/portfolio/doseo/doseo.html
